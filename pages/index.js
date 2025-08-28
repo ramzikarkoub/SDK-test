@@ -16,7 +16,10 @@ export default function Home() {
       <div id="bildit-homepage-carousel"></div>
 
       {/* Load the SDK script */}
-      <Script src="https://your-domain/sdk.js" strategy="beforeInteractive" />
+      <Script
+        src="https://bildit-example.vercel.app/sdk.js"
+        strategy="beforeInteractive"
+      />
     </div>
   );
 }
